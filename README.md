@@ -16,6 +16,11 @@
 
 ```
 {
-	""
+	"emotion": <emotion>,
+	"keywords": <list of keywords>,
+	"sentiment": {
+		"label": <string>,
+		"score": <float>
+	}
 }
 ```
