@@ -1,0 +1,20 @@
+ibm:
+  api-key: "IBM-Watson-api-key"
+  api-url: "IBM-Watson-url"
+  keywords-limit: 50
+  keywords-thresh: 0.6
+  sentiment-thresh: 0.5
+  emotion-thresh: 0.6
+  max_words: 100
+model: 
+  path: "path-to-word-embedding-model"
+  binary: False
+topic:
+  list:
+    - food
+    - animals
+    - technology
+    - sports
+    - news
+    - music
+  coeff: 3
